@@ -1,0 +1,26 @@
+{
+  "name": "user_register_login_en",
+  "version": "1.0.0",
+  "description": "node.js express login and registration",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "exress",
+    "login",
+    "registration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  }
+}
