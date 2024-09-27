@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "node.js express login and registration",
   "main": "server.js",
-  
+  "scripts": {
+    "build": "tsc --project .",
+    "build-prod": "npm install && npm run build"
+},
   "keywords": [
     "node.js",
     "exress",
